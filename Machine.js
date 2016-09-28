@@ -137,6 +137,7 @@ function Machine() {
                        {size: windowWidth*0.03, leading: windowHeight*0.09}); // text attributes
   this.addActor(this.fixedSlideLabel); // adds text to scene
  */
+ 
   
   }
   

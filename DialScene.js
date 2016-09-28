@@ -4,6 +4,16 @@
 //                   September 23, 2016                 //
 //////////////////////////////////////////////////////////
 
+
+/* THIS IS A TEST TO SEE IF MY CODE DISAPPEARS EVERY DAY
+SOMETHING
+SOMETHING
+SOMETHING SOMETHING
+SOMETHING
+9/27/16 IN 6TH PERIOD
+2:37PM
+*/
+
 "use strict"; //This causes it to be executed in "strict" mode which prevents some unsafe syntax
 
 function DialScene() {
@@ -52,8 +62,9 @@ function DialScene() {
   
   ///////////////////////////////// BUTTON SUB FUNCTIONS //////////////////////////////////
 
+//shows the dial value
 DialScene.prototype.speedAction = function(dialValue) {
   var positionValue = dialValue;
   console.log ("value = " + positionValue);
-  manager.change(ROBOTARM.master.value.stepperPosition ,positionValue);
+  manager.change(ROBOTARM.master.value.stepperPosition, positionValue);
 }
